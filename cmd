@@ -11,4 +11,3 @@ grant ALL PRIVILEGES on nkk.* to rrk identified by 'nikkai517';
 
 mysql -u rrk -p
 
-#sudo ln -s /home/usr/wbrt /var/www/html
