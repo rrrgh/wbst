@@ -5,9 +5,9 @@ mysql -u username -p -h host databasename
 select user,host from mysql.user;
 show grants for 'root'@'%';
 
-create user rrk identified by 'nikkai517';
+create user nkkusr identified by 'nikkai517';
 create database nkk;
-grant ALL PRIVILEGES on nkk.* to rrk identified by 'nikkai517';
+grant ALL PRIVILEGES on nkk.* to nkkusr identified by 'nikkai517';
 
-mysql -u rrk -p
+mysql -u nkkusr -p
 
